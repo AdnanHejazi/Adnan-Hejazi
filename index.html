@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Adnan Hejazi</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="styles.css">
@@ -20,12 +21,12 @@
         </a>
         <div class="nav-links">
           <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Profile</a></li>
-            <li><a href="#">Education</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Interest</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#interests">Interests</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
       </nav>
@@ -33,11 +34,15 @@
     
   </header>
   
-  <section id="home">
+  <section id="home" class="home">
       <div class="banner">
         <div class="main">
           <!-- <img src="pexels-xi.jpg " alt="" srcset=""> -->
-          <h1>I'm Adnan <span>Hejazi</span></h1>
+          <div class="main-title">
+            <h1>I'm Adnan <span>Hejazi</span></h1>
+            <h4>A <span>passionate</span> programmer</h4>
+          </div>
+          
         </div>
         <div class="sidebar">
           <ul>
@@ -47,12 +52,13 @@
             <li><a href="#skills">Skills</a></li>
             <li><a href="#interests">Interests</a></li>
             <li><a href="#contact">Contact</a></li>
+            <div class="bubble"></div>
           </ul>
         </div>
       </div>
   </section>
 
-  <section id="profile">
+  <section id="profile" class="profile">
     <div class="profile-content row">
       <img src="profile-pic.jpg" alt="">
 
@@ -60,7 +66,8 @@
         <h2>Mohammad Adnan Hejazi</h2>
         <hr>
         <p>I'm an Undergraduate B.E student studying IT with good knowledge of Python, front-end technologies like HTML5, CSS3, JavaScript and frameworks like Bootstrap and Materialize. My interests in professional career are Web and Mobile App Development, Data Science, Cyber Security, Artificial Intelligence and Machine Learning.</p>
-        <p>Also I'm a good team player and I like to work as a team, you'll learn faster and much more. As the saying goes: 'two heads are better than one'.</p>
+        <!-- <p>Also I'm a good team player and I like to work as a team, you'll learn faster and much more. As the saying goes: 'two heads are better than one'.</p> -->
+        <p>Also I'm a person who embraces team work. I dote on "none of us is as smart as all of us" ideology. As the saying goes, 'Two heads are better than one' then why not just make the best and get it done!</p>
         <!-- <button class="res-btn"><a href="#"><i class="fas fa-download"></i> Download Resume</a></button> -->
         <a class="res-link" href="#">
           <button type="button" class="btn btn-outline-light res-btn"><i class="fas fa-download"></i> Download Resume</button>
@@ -70,7 +77,7 @@
    
   </section>
 
-  <section id="education">
+  <section id="education" class="education">
     <div class="row">
       <div class="col-md-4 heading">
         <h2>Education</h2>
@@ -88,7 +95,7 @@
   </section>
 
 
-  <section id="skills">
+  <section id="skills" class="skills">
     <h2>My Skills</h2>
     <div class="row skill-row">
       <div class="col-md-4 skill-item">
@@ -127,7 +134,7 @@
     </div>
   </section>
 
-  <section id="interests">
+  <section id="interests" class="interests">
     <h2>My Interests</h2>
     <div class="row interests-row">
       <div class="col-md-4 interest-imgs">
@@ -174,7 +181,7 @@
     </div>
   </section>
 
-  <section id="contact">
+  <section id="contact" class="contact">
     <h2>Contact Me</h2>
     <div class="container">
       <div class="contactinfo">
