@@ -599,6 +599,10 @@ footer{
         margin-right: 0px;
         text-align: center;
     }
+    
+    #education .row{
+        margin-right: 0;
+    }
 
     .about p{
         text-align: center;
