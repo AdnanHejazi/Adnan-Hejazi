@@ -520,7 +520,7 @@ background-size: cover;
 
 .contactform input:focus ~ span, .contactform textarea:focus ~ span, 
 .contactform input:valid ~ span, .contactform textarea:valid ~ span{
-    transform: translateY(-10px);
+    transform: translateY(-15px);
     color: rgb(241, 171, 171);
 }
 
